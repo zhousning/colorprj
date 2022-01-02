@@ -19,6 +19,11 @@
   </view>
 
   <view class="action text-gray add-action">
+      <navigator hover-class='none' url="/pages/todos/detail/detail" class="cu-btn cuIcon-add bg-green shadow"></navigator>
+      手工报修
+    </view>
+
+    <view class="action text-gray add-action">
       <button class="cu-btn cuIcon-scan bg-green shadow"></button>
       扫一扫
     </view>
