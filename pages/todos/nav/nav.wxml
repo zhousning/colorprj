@@ -1,0 +1,17 @@
+<cu-custom bgColor="bg-green" isBack="{{false}}">
+  <view slot="backText">返回</view>
+  <view slot="content">我的任务</view>
+</cu-custom>
+
+<scroll-view scroll-x class="bg-cyan nav">
+  <view class="flex text-center">
+    <view class="cu-item flex-sub {{index==TabCur?'text-white cur':''}}" wx:for="{{tabs}}" wx:key="{{item.id}}" bindtap="tabSelect" data-id="{{item.id}}">
+      {{item.title}}
+    </view>
+  </view>
+
+</scroll-view>
+
+<process wx:if="{{TabCur==0}}"></process>
+<confirm wx:if="{{TabCur==1}}"></confirm>
+<complete wx:if="{{TabCur==2}}"></complete>
