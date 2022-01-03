@@ -1,7 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    
+    "pend": "/pages/todos/pend/pend",
     "process": "/pages/todos/process/process",
     "confirm": "/pages/todos/confirm/confirm",
     "complete": "/pages/todos/complete/complete"

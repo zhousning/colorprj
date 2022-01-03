@@ -15,7 +15,8 @@
     "pages/my/about/about",
     "pages/my/log/log",
     "pages/my/test/list",
-    "pages/my/test/filter"
+    "pages/my/test/filter",
+    "pages/done/repair/repair"
   ],
   "window": {
     "navigationStyle": "custom"

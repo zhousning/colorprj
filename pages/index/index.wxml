@@ -19,7 +19,7 @@
   </view>
 
   <view class="action text-gray add-action">
-      <navigator hover-class='none' url="/pages/todos/detail/detail" class="cu-btn cuIcon-add bg-green shadow"></navigator>
+      <navigator hover-class='none' url="/pages/done/repair/repair" class="cu-btn cuIcon-add bg-green shadow"></navigator>
       手工报修
     </view>
 

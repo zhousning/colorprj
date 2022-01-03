@@ -1,23 +1,12 @@
-// pages/todos/complete/complete.js
+// pages/todos/process/process.js
+const app = getApp()
+
 Component({
-  /**
-   * 组件的属性列表
-   */
-  properties: {
-
+  options: {
+    addGlobalClass: true
   },
-
-  /**
-   * 组件的初始数据
-   */
   data: {
-
-  },
-
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
+    StatusBar: app.globalData.StatusBar,
+    CustomBar: app.globalData.CustomBar
   }
 })

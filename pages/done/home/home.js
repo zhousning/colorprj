@@ -1,4 +1,4 @@
-// pages/done/home/home.js
+// pages/todos/home/home.js
 Component({
   /**
    * 组件的属性列表
