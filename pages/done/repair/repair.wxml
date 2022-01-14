@@ -24,6 +24,10 @@
 		<input placeholder=""></input>
 	</view>
 	<view class="cu-form-group">
+		<view class="title">设备名称</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
 		<view class="title">报修区域</view>
 		<input placeholder=""></input>
 		<text class="cuIcon-locationfill text-orange"></text>

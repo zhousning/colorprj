@@ -15,6 +15,7 @@
         <view class="content margin-bottom-xs">报修单位：水务集团</view>
         <view class="content margin-bottom-xs">报修部门：运营部</view>
         <view class="content margin-bottom-xs">报修区域：办公室</view>
+        <view class="content margin-bottom-xs">设备名称：灯管</view>
         <view class="content margin-bottom-xs">故障类型：灯坏了</view>
         <view class="content margin-bottom-xs">故障描述：不亮了</view>
       </view>
